@@ -1,0 +1,25 @@
+{
+  "name": "webpage-structure-reader-app",
+  "version": "1.0.0",
+  "description": "Faz leitura de estrutura de uma página web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "Leitor",
+    "Estrutura",
+    "WebPage",
+    "Chrome"
+  ],
+  "author": "Fabiano Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "recursive-copy": "^2.0.9",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
